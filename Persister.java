@@ -3,7 +3,7 @@ package HomeWork;
 import java.io.FileWriter;
 import java.io.IOException;
 
-// Класс Persister теперь реализует интерфейс Saver, что позволяет следовать принципу DIP
+// Класс Persister теперь реализует интерфейс Saver, что позволяет следовать принципу DIP (Dependency Inversion Principle)
 public class Persister implements Saver {
     private User user;
 

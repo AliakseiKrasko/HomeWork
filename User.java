@@ -1,6 +1,6 @@
 package HomeWork;
 
-// Класс User теперь только управляет данными пользователя (SRP)
+// Класс User теперь отвечает только за управление данными пользователя, что соответствует принципу SRP (Single Responsibility Principle)
 public class User {
     private String name;
 
